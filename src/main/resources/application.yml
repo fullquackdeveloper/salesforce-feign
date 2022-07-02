@@ -10,6 +10,7 @@ spring.security.oauth2.client:
       token-uri: https://domain.my.salesforce.com/services/oauth2/token
 
 salesforce:
+  baseUrl: https://domain.my.salesforce.com
   login:
     api-username: username
     api-password: password
