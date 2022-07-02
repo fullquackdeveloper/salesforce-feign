@@ -1,0 +1,21 @@
+spring.security.oauth2.client:
+  registration:
+    salesforce:
+      authorization-grant-type: password
+      client-authentication-method: post
+      client-id: clientId
+      client-secret: clientSecret
+  provider:
+    salesforce:
+      token-uri: https://domain.my.salesforce.com/services/oauth2/token
+
+salesforce:
+  login:
+    api-username: username
+    api-password: password
+
+feign.client.config.default:
+  loggerLevel: basic
+
+logging.level:
+  root: info
